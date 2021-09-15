@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<!--Lorenze Salas-->
+
+<head>
+    <script>
+        alert("WARNING! This is a test of the alert function!");
+    </script>
+    <title>
+        Lorenze's CSC102 Webpage
+    </title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="UATspaceLogo-1.jpg">
+    <h1>
+        UAT Space Program
+    </h1>
+    <script>
+        document.write("This is a test of the document.write function.");
+    </script>
+    <p>
+        This is a test of the paragraph tags.
+    </p> <br>
+    <button onclick="startTimer();">
+        Start
+    </button>
+    <button>
+        End
+    </button>
+    <br>
+    <br>
+    <p id="countdownTimer">Starting Countdown... </p>
+    <script>
+        var currTime = 20;
+        function startTimer() {
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 2000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 4000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 6000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 8000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 10000); setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 12000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 14000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 16000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = currTime;
+            }, 18000);
+            document.getElementById("countdownTimer").innerHTML = currTime;
+            setTimeout(function () {
+                currTime = currTime - 2;
+                document.getElementById("countdownTimer").innerHTML = "Blastoff!";
+            }, 20000);
+        }
+        
+    </script>
+</body>
+
+</html>
